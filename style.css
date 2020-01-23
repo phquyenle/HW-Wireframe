@@ -12,71 +12,66 @@ body {
     
 
 }
-.nav{
-  overflow:hidden;
-  background-color: lightgray;
-  color: grey;
-margin-bottom: 50px;
-text-align: center;
-padding: 15px;
-}
 
-.header, .footer { 
-    background-color: lightgray;
+header {
+    padding:20px;
+    margin-bottom: 20px;
     color: grey;
-    padding: 15px;
-
-}
-.header {
-    margin-bottom: 50px;
+    background: lightgray;
     text-align: center;
+}
+
+
+nav {
+    overflow: hidden;
+    background: lightgrey;
+    color:grey;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+section {
+    float:left;
+    width:50%;
+    background: lightgrey;
     color: grey;
-}
-header,nav,section,aside,footer {
-    background-color: "#ebebeb";
-}
-
-/* create 2 equal columns that float next to each other*/
-.column {
-    float: left;
-    width: 50%;
-    padding: 15px;
+    text-align:center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    height: 275px;
 }
 
-
-/* clear floats after the columns*/
- .row{
-     content: "";
-     display:table;
-     clear: both;
- }
-/* responsice layout- makes the columns stack on top of each other instead of next to each other*/
-.column {
-    width: 100%;
-}
- 
 article{
-    color:"#ebebeb";
-    background: "#777";
-}
-
-h1 {
-    color:"#777";
-    background-color:"#ebebeb";
-}
-
-.section {
-    width: 495px;
-    background-color: white;
-height: 200px;
- }
-    
-
-.aside { 
-    float: right;
-    background-color: white;
+    background: darkgrey;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
     height: 200px;
-    width: 495px;
-
-
 }
+
+aside {
+    float: right;
+    width: 47%;
+    background: lightgrey;
+    text-align: center;
+    color:grey;
+    padding-top: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height:275px;
+}
+
+footer{
+    padding:20px;
+    color:grey;
+    background-color: lightgrey;
+    clear: both;
+    text-align: center;
+}
+
