@@ -54,7 +54,17 @@ article{
     width: 95%;
     height: 200px;
 }
+ h1,p {
+     background:lightgrey;
+     color:grey;
+     text-align: center;
+   margin:10px;
+     width: 95%;
+     padding:20px;
+     padding-bottom: 20px;
 
+
+ }
 aside {
     float: right;
     width: 47%;
